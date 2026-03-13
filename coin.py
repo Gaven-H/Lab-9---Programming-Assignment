@@ -6,3 +6,5 @@ It can land on heads or tails.
 March 12, 2026
 """
 import random
+
+class Coin:
