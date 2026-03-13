@@ -61,3 +61,6 @@ def main() -> None:
         print("Player 2 wins the game!")
     else:
         print("It's a draw!")
+
+if __name__ == "__main__":
+    main()
