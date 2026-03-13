@@ -13,3 +13,6 @@ class Player:
         self.__name: str = name
         self.__wallet: int = 20
         self.__coin: Coin = Coin()
+    
+    def toss_coin(self) -> str:
+        self.__coin.toss()
