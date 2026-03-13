@@ -33,4 +33,8 @@ def main() -> None:
         if side1 == side2:
             player1.win_coin()
             player2.lose_coin()
-            print(". . . It's a Match! Player 1 wins a coin from player 2.")
+            print(". . . It's a Match! Player 1 wins a coin from Player 2.")
+        else:
+            player2.win_coin()
+            player1.lose_coin()
+            print(". . . No Match! Player 2 wins a coin from Player 1.")
