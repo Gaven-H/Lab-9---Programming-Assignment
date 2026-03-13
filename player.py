@@ -28,3 +28,6 @@ class Player:
 
     def get_wallet(self) -> int:
         return self.__wallet
+    
+    def get_name(self) -> str:
+        return self.__name
