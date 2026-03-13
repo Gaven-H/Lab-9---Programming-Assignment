@@ -50,3 +50,7 @@ def main() -> None:
             break
 
         play = input("Do you want to toss the coins? (y/n): ")
+    
+    print("--- Final Score ---")
+    print(f"{player1.get_name()}: {player1.get_wallet()}")
+    print(f"{player2.get_name()}: {player2.get_wallet()}")
