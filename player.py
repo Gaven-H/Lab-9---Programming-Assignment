@@ -7,3 +7,6 @@ March 12, 2026
 """
 
 from coin import Coin
+
+class Player:
+    
