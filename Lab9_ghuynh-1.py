@@ -15,3 +15,5 @@ def main() -> None:
     print("--- Cain Match Game ---")
     print(f"{player1.get_name()} has {player1.get_wallet()} coins!")
     print(f"{player2.get_name()} has {player2.get_wallet()} coins!")
+
+    play: str = input("Do you want to toss the coins? (y/n): ")
