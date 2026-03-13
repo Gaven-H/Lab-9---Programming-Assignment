@@ -19,3 +19,6 @@ class Player:
 
     def get_coin_side(self) -> str:
         return self.__coin.get.side()
+    
+    def win_coin(self) -> None:
+        self.__wallet += 1
