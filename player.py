@@ -25,3 +25,6 @@ class Player:
 
     def lose_coin(self) -> None:
         self.__wallet -= 1
+
+    def get_wallet(self) -> int:
+        return self.__wallet
