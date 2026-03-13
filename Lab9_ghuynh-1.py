@@ -54,3 +54,10 @@ def main() -> None:
     print("--- Final Score ---")
     print(f"{player1.get_name()}: {player1.get_wallet()}")
     print(f"{player2.get_name()}: {player2.get_wallet()}")
+
+    if player1.get_wallet() > player2.get_wallet():
+        print("Player 1 wins the game!")
+    elif player2.get_wallet() > player1.get_wallet():
+        print("Player 2 wins the game!")
+    else:
+        print("It's a draw!")
