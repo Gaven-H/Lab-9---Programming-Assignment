@@ -7,3 +7,6 @@ Match 12, 2026
 """
 
 from player import Player
+
+def main() -> None:
+    
