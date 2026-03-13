@@ -29,3 +29,8 @@ def main() -> None:
         
         print(f"{player1.get_name()} has tossed {side1}")
         print(f"{player2.get_name()} has tossed {side2}")
+
+        if side1 == side2:
+            player1.win_coin()
+            player2.lose_coin()
+            print(". . . It's a Match! Player 1 wins a coin from player 2.")
