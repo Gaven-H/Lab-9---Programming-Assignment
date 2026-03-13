@@ -23,3 +23,6 @@ def main() -> None:
 
         player1.toss_coin()
         player2.toss_coin()
+
+        side1: str = player1.get_coin_side()
+        side2: str = player2.get_coin_side()
