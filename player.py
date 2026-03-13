@@ -22,3 +22,6 @@ class Player:
     
     def win_coin(self) -> None:
         self.__wallet += 1
+
+    def lose_coin(self) -> None:
+        self.__wallet -= 1
