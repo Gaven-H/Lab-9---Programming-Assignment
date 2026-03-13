@@ -48,3 +48,4 @@ def main() -> None:
         if player2.get_wallet() == 0:
             print("Game Over! Player 2 has run out of coins!")
             break
+    play = input("Do you want to toss the coins? (y/n): ")
