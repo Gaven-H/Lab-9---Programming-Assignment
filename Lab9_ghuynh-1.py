@@ -26,3 +26,6 @@ def main() -> None:
 
         side1: str = player1.get_coin_side()
         side2: str = player2.get_coin_side()
+        
+        print(f"{player1.get_name()} has tossed {side1}")
+        print(f"{player2.get_name()} has tossed {side2}")
