@@ -5,3 +5,4 @@ This program will define the Coin class which simulates a single coin being toss
 It can land on heads or tails.
 March 12, 2026
 """
+import random
