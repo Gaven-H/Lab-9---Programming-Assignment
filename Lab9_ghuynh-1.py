@@ -17,3 +17,9 @@ def main() -> None:
     print(f"{player2.get_name()} has {player2.get_wallet()} coins!")
 
     play: str = input("Do you want to toss the coins? (y/n): ")
+
+    while play.lower() == "y":
+        print("Tossing. . .")
+
+        player1.toss_coin()
+        player2.toss_coin()
