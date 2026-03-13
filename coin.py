@@ -8,3 +8,5 @@ March 12, 2026
 import random
 
 class Coin:
+    def __init__(self) -> None:
+        self.__sideup: str = random.choice(["Heads", "Tails"])
