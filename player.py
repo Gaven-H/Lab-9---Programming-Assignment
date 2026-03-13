@@ -16,3 +16,6 @@ class Player:
     
     def toss_coin(self) -> str:
         self.__coin.toss()
+
+    def get_coin_side(self) -> str:
+        return self.__coin.get.side()
