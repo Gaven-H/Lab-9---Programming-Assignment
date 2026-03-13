@@ -9,4 +9,5 @@ Match 12, 2026
 from player import Player
 
 def main() -> None:
-    
+    player1: Player = Player("Player 1")
+    player2: Player = Player("Player 2")
